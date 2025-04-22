@@ -29,3 +29,4 @@ const welcome = (name) => `Welcome to the app ${name}`;
 console.log(welcome("vinicius"));
 console.log(sumNums(1,1));
 console.log("loggout");
+console.log("break de teste");
