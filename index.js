@@ -4,6 +4,7 @@ const options = {
  path: "/posts",
  method: "GET"
 }
+console.log("random log");
 const req = https.request(options, (res) => {
   let data = '';
   res.on('data', (chunk) => {
@@ -27,3 +28,4 @@ const sumNums = (a, b) => a + b;
 const welcome = (name) => `Welcome to the app ${name}`;
 console.log(welcome("vinicius"));
 console.log(sumNums(1,1));
+console.log("loggout");
