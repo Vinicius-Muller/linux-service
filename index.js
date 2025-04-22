@@ -27,3 +27,4 @@ const sumNums = (a, b) => a + b;
 const welcome = (name) => `Welcome to the app ${name}`;
 console.log(welcome("vinicius"));
 console.log(sumNums(1,1));
+console.log("break de teste");
