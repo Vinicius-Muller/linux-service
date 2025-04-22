@@ -4,6 +4,7 @@ const options = {
  path: "/posts",
  method: "GET"
 }
+
 const req = https.request(options, (res) => {
   let data = '';
   res.on('data', (chunk) => {
@@ -23,8 +24,7 @@ req.on('error', (e) => {
 });
 req.end();
 
-const sumNums = (a, b) => a + b;
+
 const welcome = (name) => `Welcome to the app ${name}`;
-console.log(welcome("vinicius"));
-console.log(sumNums(1,1));
-console.log("break de teste");
+
+
