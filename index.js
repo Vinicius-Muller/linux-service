@@ -4,7 +4,6 @@ const options = {
  path: "/posts",
  method: "GET"
 }
-
 const req = https.request(options, (res) => {
   let data = '';
   res.on('data', (chunk) => {
@@ -26,5 +25,3 @@ req.end();
 
 
 const welcome = (name) => `Welcome to the app ${name}`;
-
-
